@@ -20,8 +20,12 @@ MonoBehaviour:
   Right: {fileID: 0}
   LegSet: {fileID: 0}
   HeadPiece: {fileID: 0}
-  Name: Target
-  Health: 15
+  Name: 
   DashCharges: 0
   Speed: 0
   DashSpeed: 0
+  StartingPos: {x: 0, y: 0, z: 0}
+  isDead: 0
+  LeftArmBehaviour: {fileID: 0}
+  RightArmBehaviour: {fileID: 0}
+  HeadBehaviour: {fileID: 0}
