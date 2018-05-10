@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cooldown: 0.5
   prefab: {fileID: 1710238305023194, guid: b18ac9e667718ab4c8d10e69779b9afb, type: 2}
-  ExplosionObject: {fileID: 1350390899991598, guid: 02558634c36f1a64c8b203bbdde904b3,
+  ExplosionObject: {fileID: 1362992525454678, guid: e1235576ef65bcc4293907b4935b0a2d,
     type: 2}
   Duration: 0.3
-  Radius: 3
+  Radius: 300

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33499375511858944}
   - component: {fileID: 23771913602153074}
   - component: {fileID: 95366475882313016}
+  - component: {fileID: 135222914631939350}
   m_Layer: 0
   m_Name: ExplosionPrefab
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1362992525454678}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.204396, y: 1.5076466, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 155.57498, y: 155.57498, z: 155.57498}
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,3 +99,15 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!135 &135222914631939350
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1362992525454678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 9.313226e-10, y: 0, z: -9.313226e-10}
